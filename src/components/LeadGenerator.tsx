@@ -22,12 +22,10 @@ export const LeadGenerator = () => {
         <div className="grid md:grid-cols-2 gap-8 items-center">
           <div className="space-y-4">
             <div className="relative h-[400px] rounded-lg overflow-hidden shadow-xl">
-              <Image
+              <img
                 src="https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?q=80"
                 alt="Ebook Preview"
-                fill
                 className="object-cover transform hover:scale-105 transition-transform duration-300"
-                priority
               />
               {/* Overlay gradient */}
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
@@ -67,10 +65,9 @@ export const LeadGenerator = () => {
           
           <div className="bg-white p-8 rounded-xl shadow-lg">
             <div className="relative w-24 h-24 mx-auto mb-6">
-              <Image
+              <img
                 src="https://images.unsplash.com/photo-1497493292307-31c376b6e479?q=80"
                 alt="Ebook Icon"
-                fill
                 className="object-cover rounded-full"
               />
             </div>
