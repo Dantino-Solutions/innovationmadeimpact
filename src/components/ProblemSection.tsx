@@ -7,7 +7,6 @@ export const ProblemSection = () => {
         </h2>
         <div className="grid md:grid-cols-2 gap-8">
           <div className="bg-white p-6 rounded-lg shadow-lg">
-            <h3 className="text-xl font-semibold mb-4">Vấn đề bên ngoài</h3>
             <ul className="space-y-3">
               <li className="flex items-center">
                 <span className="mr-2">•</span>
@@ -24,7 +23,6 @@ export const ProblemSection = () => {
             </ul>
           </div>
           <div className="bg-white p-6 rounded-lg shadow-lg">
-            <h3 className="text-xl font-semibold mb-4">Vấn đề bên trong</h3>
             <ul className="space-y-3">
               <li className="flex items-center">
                 <span className="mr-2">•</span>
