@@ -3,6 +3,7 @@ import { ProblemSection } from "@/components/ProblemSection";
 import { SolutionSection } from "@/components/SolutionSection";
 import { PlanSection } from "@/components/PlanSection";
 import { SuccessSection } from "@/components/SuccessSection";
+import { LeadGenerator } from "@/components/LeadGenerator";
 import { Footer } from "@/components/Footer";
 
 const Index = () => {
@@ -13,6 +14,7 @@ const Index = () => {
       <SolutionSection />
       <PlanSection />
       <SuccessSection />
+      <LeadGenerator />
       <Footer />
     </div>
   );
