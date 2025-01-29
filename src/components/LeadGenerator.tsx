@@ -2,7 +2,6 @@ import { useState } from "react";
 import { Button } from "./ui/button";
 import { Input } from "./ui/input";
 import { useToast } from "./ui/use-toast";
-import Image from "next/image";
 
 export const LeadGenerator = () => {
   const [email, setEmail] = useState("");
