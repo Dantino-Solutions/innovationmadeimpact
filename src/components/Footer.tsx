@@ -5,8 +5,8 @@ export const Footer = () => {
         <div className="grid md:grid-cols-3 gap-8">
           <div>
             <h3 className="text-lg font-semibold mb-4">Liên hệ</h3>
-            <p>Email: contact@sit.com</p>
-            <p>Phone: (84) 123-456-789</p>
+            <p>Email: hello@innovationmadeimpact.com</p>
+            <p>Phone: (84) 989747875</p>
           </div>
           <div>
             <h3 className="text-lg font-semibold mb-4">Theo dõi chúng tôi</h3>
@@ -23,7 +23,7 @@ export const Footer = () => {
           </div>
         </div>
         <div className="text-center mt-8 pt-8 border-t border-gray-800">
-          <p>&copy; 2024 SIT. All rights reserved.</p>
+          <p>&copy; 2025 IMP. All rights reserved.</p>
         </div>
       </div>
     </footer>
